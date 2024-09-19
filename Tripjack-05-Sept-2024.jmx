@@ -87,14 +87,14 @@
         <boolProp name="CacheManager.controlledByThread">false</boolProp>
       </CacheManager>
       <hashTree/>
-      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
+      <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="412829152">
-            <stringProp name="57">9</stringProp>
+          <collectionProp name="-529403909">
+            <stringProp name="50">2</stringProp>
             <stringProp name="48">0</stringProp>
-            <stringProp name="1665">45</stringProp>
-            <stringProp name="1515111">1800</stringProp>
             <stringProp name="1567">10</stringProp>
+            <stringProp name="48687">120</stringProp>
+            <stringProp name="49">1</stringProp>
           </collectionProp>
         </collectionProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
@@ -888,7 +888,7 @@ vars.put(&quot;BE_Search_Status&quot;, &quot;ResetVarriable&quot;)</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
+          <stringProp name="classname">org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient</stringProp>
         </BackendListener>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
@@ -1747,7 +1747,7 @@ vars.put(&quot;BE_Search_Status&quot;, &quot;ResetVarriable&quot;)</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="classname">rocks.nt.apm.jmeter.JMeterInfluxDBBackendListenerClient</stringProp>
+          <stringProp name="classname">org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient</stringProp>
         </BackendListener>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
